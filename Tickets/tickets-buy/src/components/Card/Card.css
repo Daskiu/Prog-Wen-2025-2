@@ -1,0 +1,66 @@
+.ticket-container {
+    width: 300px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', sans-serif;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 2px dashed #ff4b2b;
+}
+
+.ticket-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-container img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.ticket-container h1 {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 10px 15px 5px;
+    font-weight: bold;
+}
+
+.ticket-container h2 {
+    font-size: 1rem;
+    color: #777;
+    margin: 0 15px 10px;
+}
+
+.ticket-container p {
+    margin: 5px 15px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.ticket-container p:last-of-type {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff4b2b;
+}
+
+.ticket-container button {
+    display: block;
+    width: calc(100% - 30px);
+    margin: 15px auto 15px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.ticket-container button:hover {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    transform: scale(1.02);
+}

@@ -1,0 +1,37 @@
+/* Contenedor general */
+.body-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Sección de disponibles */
+.available-section {
+    flex: 2;
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Sección de carrito */
+.cart-section {
+    flex: 1;
+    background: #fff7f5;
+    border: 2px solid #ff4b2b;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Títulos */
+.section-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Grid de tickets */
+.tickets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+}
