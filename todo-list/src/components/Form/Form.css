@@ -1,0 +1,70 @@
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+li {
+  list-style: none;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li strong {
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+
+li strong:contains("alta") {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+li strong:contains("media") {
+  background-color: #ffa500;
+  color: white;
+}
+
+li strong:contains("baja") {
+  background-color: #ffd700; 
+  color: black;
+}
+
+
+div select {
+  margin: 10px 0;
+}
