@@ -1,4 +1,4 @@
-const Card = ({book, isFavorite}) => {
+const Card = ({book, onFavorite, onDelete, isFavorite}) => {
 
     return (
         <>
