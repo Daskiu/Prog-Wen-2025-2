@@ -1,0 +1,25 @@
+.book-item {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.book-item p {
+  margin: 0.2rem 0;
+}
+
+.book-item button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book-item button:hover {
+  background: #4338ca;
+}

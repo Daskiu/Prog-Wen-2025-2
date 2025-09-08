@@ -1,0 +1,47 @@
+.reading-list-item {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fefefe;
+}
+
+.reading-list-item p {
+  margin: 0.2rem 0;
+}
+
+.reading-list-item select {
+  margin: 0.5rem 0;
+  padding: 0.4rem;
+  border-radius: 6px;
+}
+
+.reading-list-item textarea {
+  width: 100%;
+  min-height: 60px;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  font-size: 0.9rem;
+}
+
+.reading-list-item button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reading-list-item button:hover {
+  background: #b91c1c;
+}
+
+.notes-section {
+  margin-top: 0.5rem;
+  width: 30rem;
+}
